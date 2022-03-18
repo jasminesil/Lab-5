@@ -17,7 +17,7 @@ def SumIntegers(n):
         return 0
     else:
         return n % 10 + SumIntegers(int(n/10))
-        
+#Good Work
         
 print(SumIntegers(345))
 print(SumIntegers(45))
